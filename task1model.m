@@ -13,9 +13,9 @@ addpath('data','libsvm');
 %% DATA (The input is min-max normalized)
 
 load mm1trninp.csv; load task1trnout.csv;
-load mm1chkinp.csv; load task1chkout.txt;
+load mm1tstinp.csv; load task1tstout.csv;
 trnin = mm1trninp; datout = task1trnout;
-chkin = mm1chkinp; chkout = task1chkout;
+chkin = mm1tstinp; chkout = task1tstout;
 
 %%  Settings for the optimal solution of this task
 % Task 1 with seven rules and 161 features 
